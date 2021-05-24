@@ -1,0 +1,170 @@
+body {
+  font-family: "Montserrat";
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.feature-icons {}
+
+/*Footer*/
+.footer-icon {
+  padding: 10px;
+}
+
+.last_section {
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 20%;
+}
+
+.feature-rows {}
+
+.rotated {
+  width: 14rem;
+  position: absolute;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  transform: rotate(15deg);
+  left: 65%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 5rem;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  position: relative;
+  left: 60%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat-light";
+}
+
+/*Buttons*/
+.dowloadButton {
+  margin: 5% 3% 5% 0;
+}
+
+/* STEP TWO */
+.icons {
+  padding: 1.5rem;
+  color: #6c757d;
+}
+
+.icons:hover {
+  color: #343a40;
+}
+
+.feature-boxes {
+  padding: 5rem;
+}
+
+/*Testimonials*/
+.testimonial-image {
+  width: 13%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#title {
+  background-color: #343a40;
+  color: #fff;
+  z-index: -2;
+}
+
+#features {
+  background-color: white;
+  font-family: serif;
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+}
+
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #343a40;
+  color: #fff;
+}
+
+#press {
+  background-color: #343a40;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px;
+  text-align: center;
+  text-emphasis-color: black;
+}
+
+#cta {
+  background-color: #343a40;
+  color: #ffff;
+  padding: 3rem;
+  text-align: center;
+}
+
+#footer {
+  padding: 5rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+#pricing, #footer, #cta {
+  font-family: "Montserrat-black";
+}
+
+@media (max-width: 992px) {
+  .rotated {
+    width: 20rem;
+    position: relative;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    transform: none;
+    left: auto;
+  }
+
+  @media (max-width: 1597px) {
+    #features {
+      background-color: white;
+      font-family: serif;
+      font-size: 1.5rem;
+      text-align: justify;
+      position: relative;
+      box: 0;
+    }
+  }
